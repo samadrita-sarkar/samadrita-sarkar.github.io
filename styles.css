@@ -50,10 +50,17 @@ h1 {
     line-height: 1.2;
 }
 
+.second-line {
+    height: 1.2em; /* Match line-height */
+    overflow: hidden;
+    white-space: nowrap;
+}
+
 .rotating-text {
     color: var(--primary-color);
     display: inline-block;
     min-width: 200px;
+    white-space: nowrap;
 }
 
 /* Buttons */
