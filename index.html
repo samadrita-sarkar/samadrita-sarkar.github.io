@@ -1,7 +1,35 @@
 <!DOCTYPE html>
-<html>
-    <body>
-        <h1>Hello World!</h1>
-        <p>I am Sam!</p>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sam's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Background draggable boxes -->
+    <div class="background-boxes" id="boxContainer">
+        <div class="drag-box" draggable="true">❝ Mentor quote goes here ❞</div>
+        <div class="drag-box" draggable="true">🎨 Creative work</div>
+        <div class="drag-box" draggable="true">📸 Project preview</div>
+        <div class="drag-box" draggable="true">✨ Personal touch</div>
+    </div>
+
+    <!-- Main content -->
+    <main class="hero">
+        <div class="container">
+            <h1>
+                Hi! I am Sam,<br>
+                a product designer and <span class="rotating-text" id="rotating-text">full-time nerd</span>
+            </h1>
+            
+            <div class="button-container">
+                <a href="#portfolio" class="button primary">View Portfolio</a>
+                <a href="#about" class="button secondary">About Me</a>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
 </html>
